@@ -1,0 +1,2 @@
+model,n_test,accuracy,precision,recall,f1,roc_auc,log_loss,algorithm,stage,optimization,best_cv_f1,parameters
+logistic_optimized,1850,0.8664864864864865,0.549367088607595,0.7587412587412588,0.6372980910425844,0.904440827714485,0.4544675052165985,Logistic Regression,optimized,5-fold elastic-net GridSearchCV over C and L1/L2 mixture,0.6431060164522971,"{'C': 0.05, 'l1_ratio': 1.0}"

@@ -1,0 +1,33 @@
+{
+  "model": "knn_baseline",
+  "n_test": 1850,
+  "accuracy": 0.8745945945945945,
+  "precision": 0.6436170212765957,
+  "recall": 0.4230769230769231,
+  "f1": 0.510548523206751,
+  "roc_auc": 0.8022977661724466,
+  "log_loss": 1.5358763994339844,
+  "confusion_matrix": [
+    [
+      1497,
+      67
+    ],
+    [
+      165,
+      121
+    ]
+  ],
+  "algorithm": "K-Nearest Neighbors",
+  "stage": "baseline",
+  "optimization": "None",
+  "parameters": {
+    "algorithm": "auto",
+    "leaf_size": 30,
+    "metric": "minkowski",
+    "metric_params": null,
+    "n_jobs": -1,
+    "n_neighbors": 5,
+    "p": 2,
+    "weights": "uniform"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "model": "knn_optimized",
+  "n_test": 1850,
+  "accuracy": 0.8724324324324324,
+  "precision": 0.6404494382022472,
+  "recall": 0.3986013986013986,
+  "f1": 0.49137931034482757,
+  "roc_auc": 0.7796207948062168,
+  "log_loss": 1.8122560443556972,
+  "confusion_matrix": [
+    [
+      1500,
+      64
+    ],
+    [
+      172,
+      114
+    ]
+  ],
+  "algorithm": "K-Nearest Neighbors",
+  "stage": "optimized",
+  "optimization": "5-fold GridSearchCV maximizing validation F1",
+  "best_cv_f1": 0.5180737256661909,
+  "parameters": {
+    "knn__n_neighbors": 5,
+    "knn__p": 2,
+    "knn__weights": "uniform",
+    "pca__n_components": 0.9
+  }
+}

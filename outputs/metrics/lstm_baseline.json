@@ -1,0 +1,29 @@
+{
+  "model": "lstm_baseline",
+  "n_test": 1850,
+  "accuracy": 0.6962162162162162,
+  "precision": 0.2934131736526946,
+  "recall": 0.6853146853146853,
+  "f1": 0.4109014675052411,
+  "roc_auc": 0.7522266735821722,
+  "log_loss": 0.5760948061943054,
+  "confusion_matrix": [
+    [
+      1092,
+      472
+    ],
+    [
+      90,
+      196
+    ]
+  ],
+  "algorithm": "LSTM",
+  "stage": "baseline",
+  "optimization": "None",
+  "device": "/physical_device:GPU:0",
+  "parameters": {
+    "units": 32,
+    "dropout": 0.0,
+    "loss": "binary_crossentropy"
+  }
+}

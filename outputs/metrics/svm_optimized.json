@@ -1,0 +1,29 @@
+{
+  "model": "svm_optimized",
+  "n_test": 1850,
+  "accuracy": 0.8821621621621621,
+  "precision": 0.6717171717171717,
+  "recall": 0.46503496503496505,
+  "f1": 0.5495867768595041,
+  "roc_auc": 0.9000925545043192,
+  "log_loss": 0.2803769566911826,
+  "confusion_matrix": [
+    [
+      1499,
+      65
+    ],
+    [
+      153,
+      133
+    ]
+  ],
+  "algorithm": "Support Vector Machine",
+  "stage": "optimized",
+  "optimization": "3-fold GridSearchCV maximizing validation F1",
+  "best_cv_f1": 0.5717419586072748,
+  "parameters": {
+    "estimator__C": 2.0,
+    "estimator__gamma": 0.05,
+    "estimator__kernel": "rbf"
+  }
+}

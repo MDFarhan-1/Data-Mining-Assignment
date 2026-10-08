@@ -1,0 +1,2 @@
+model,n_test,accuracy,precision,recall,f1,roc_auc,log_loss,algorithm,stage,optimization,best_cv_f1,parameters
+naive_bayes_optimized,1850,0.6713513513513514,0.2951653944020356,0.8111888111888111,0.43283582089552236,0.8073480228211687,1.5386526584625244,Gaussian Naive Bayes,optimized,5-fold variance-smoothing GridSearchCV plus calibrated posterior analysis,0.4376858962748547,{'var_smoothing': 1e-11}

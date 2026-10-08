@@ -1,0 +1,2 @@
+model,n_test,accuracy,precision,recall,f1,roc_auc,log_loss,algorithm,stage,optimization,parameters
+knn_baseline,1850,0.8745945945945945,0.6436170212765957,0.4230769230769231,0.510548523206751,0.8022977661724466,1.5358763994339844,K-Nearest Neighbors,baseline,None,"{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': -1, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}"

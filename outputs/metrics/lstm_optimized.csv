@@ -1,0 +1,2 @@
+model,n_test,accuracy,precision,recall,f1,roc_auc,log_loss,algorithm,stage,optimization,device,parameters
+lstm_optimized,1850,0.705945945945946,0.30973451327433627,0.7342657342657343,0.43568464730290457,0.7808447945915977,0.5343751907348633,LSTM,optimized,"Bidirectional stacked LSTM, batch normalization, dropout, class weighting, adaptive learning rate, and early stopping",/physical_device:GPU:0,"{'units': 64, 'dropout': 0.25, 'loss': 'binary_crossentropy', 'class_weights': {0: 1.0, 1: 5.460329341317365}}"

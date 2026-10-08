@@ -1,0 +1,2 @@
+model,n_test,accuracy,precision,recall,f1,roc_auc,log_loss,algorithm,stage,optimization,best_cv_f1,parameters
+random_forest_optimized,1850,0.8891891891891892,0.6231003039513677,0.7167832167832168,0.6666666666666666,0.9274140182068571,0.25153122061779243,Random Forest,optimized,3-fold GridSearchCV maximizing validation F1,0.6945170840421463,"{'max_depth': None, 'min_samples_leaf': 1, 'n_estimators': 200}"

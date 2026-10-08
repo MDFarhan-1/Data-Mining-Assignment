@@ -1,0 +1,2 @@
+model,n_test,accuracy,precision,recall,f1,roc_auc,log_loss,algorithm,stage,optimization,best_cv_f1,parameters
+knn_optimized,1850,0.8724324324324324,0.6404494382022472,0.3986013986013986,0.49137931034482757,0.7796207948062168,1.8122560443556972,K-Nearest Neighbors,optimized,5-fold GridSearchCV maximizing validation F1,0.5180737256661909,"{'knn__n_neighbors': 5, 'knn__p': 2, 'knn__weights': 'uniform', 'pca__n_components': 0.9}"

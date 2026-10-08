@@ -1,0 +1,2 @@
+model,n_test,accuracy,precision,recall,f1,roc_auc,log_loss,algorithm,stage,optimization,device,parameters
+lstm_baseline,1850,0.6962162162162162,0.2934131736526946,0.6853146853146853,0.4109014675052411,0.7522266735821722,0.5760948061943054,LSTM,baseline,None,/physical_device:GPU:0,"{'units': 32, 'dropout': 0.0, 'loss': 'binary_crossentropy'}"

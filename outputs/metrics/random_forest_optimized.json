@@ -1,0 +1,29 @@
+{
+  "model": "random_forest_optimized",
+  "n_test": 1850,
+  "accuracy": 0.8891891891891892,
+  "precision": 0.6231003039513677,
+  "recall": 0.7167832167832168,
+  "f1": 0.6666666666666666,
+  "roc_auc": 0.9274140182068571,
+  "log_loss": 0.25153122061779243,
+  "confusion_matrix": [
+    [
+      1440,
+      124
+    ],
+    [
+      81,
+      205
+    ]
+  ],
+  "algorithm": "Random Forest",
+  "stage": "optimized",
+  "optimization": "3-fold GridSearchCV maximizing validation F1",
+  "best_cv_f1": 0.6945170840421463,
+  "parameters": {
+    "max_depth": null,
+    "min_samples_leaf": 1,
+    "n_estimators": 200
+  }
+}

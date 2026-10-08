@@ -1,0 +1,27 @@
+{
+  "model": "naive_bayes_optimized",
+  "n_test": 1850,
+  "accuracy": 0.6713513513513514,
+  "precision": 0.2951653944020356,
+  "recall": 0.8111888111888111,
+  "f1": 0.43283582089552236,
+  "roc_auc": 0.8073480228211687,
+  "log_loss": 1.5386526584625244,
+  "confusion_matrix": [
+    [
+      1010,
+      554
+    ],
+    [
+      54,
+      232
+    ]
+  ],
+  "algorithm": "Gaussian Naive Bayes",
+  "stage": "optimized",
+  "optimization": "5-fold variance-smoothing GridSearchCV plus calibrated posterior analysis",
+  "best_cv_f1": 0.4376858962748547,
+  "parameters": {
+    "var_smoothing": 1e-11
+  }
+}

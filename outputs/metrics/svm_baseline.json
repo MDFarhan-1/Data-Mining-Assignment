@@ -1,0 +1,40 @@
+{
+  "model": "svm_baseline",
+  "n_test": 1850,
+  "accuracy": 0.8848648648648648,
+  "precision": 0.6697674418604651,
+  "recall": 0.5034965034965035,
+  "f1": 0.5748502994011976,
+  "roc_auc": 0.8967771359075707,
+  "log_loss": 0.28143467819013857,
+  "confusion_matrix": [
+    [
+      1493,
+      71
+    ],
+    [
+      142,
+      144
+    ]
+  ],
+  "algorithm": "Support Vector Machine",
+  "stage": "baseline",
+  "optimization": "None",
+  "parameters": {
+    "C": 1.0,
+    "break_ties": false,
+    "cache_size": 200,
+    "class_weight": "balanced",
+    "coef0": 0.0,
+    "decision_function_shape": "ovr",
+    "degree": 3,
+    "gamma": "scale",
+    "kernel": "rbf",
+    "max_iter": -1,
+    "probability": true,
+    "random_state": 42,
+    "shrinking": true,
+    "tol": 0.001,
+    "verbose": false
+  }
+}

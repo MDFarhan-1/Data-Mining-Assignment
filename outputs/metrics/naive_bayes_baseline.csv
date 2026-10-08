@@ -1,0 +1,2 @@
+model,n_test,accuracy,precision,recall,f1,roc_auc,log_loss,algorithm,stage,optimization,parameters
+naive_bayes_baseline,1850,0.6713513513513514,0.2951653944020356,0.8111888111888111,0.43283582089552236,0.8073480228211687,1.5386526584625244,Gaussian Naive Bayes,baseline,None,"{'priors': None, 'var_smoothing': 1e-09}"

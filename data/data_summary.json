@@ -1,0 +1,31 @@
+{
+  "rows": 12330,
+  "original_features": 17,
+  "transformed_features": 29,
+  "train": 8631,
+  "validation": 1849,
+  "test": 1850,
+  "positive_rate": 0.15474452554744525,
+  "categorical_features": [
+    "Month",
+    "VisitorType",
+    "Weekend"
+  ],
+  "numeric_features": [
+    "Administrative",
+    "Administrative_Duration",
+    "Informational",
+    "Informational_Duration",
+    "ProductRelated",
+    "ProductRelated_Duration",
+    "BounceRates",
+    "ExitRates",
+    "PageValues",
+    "SpecialDay",
+    "OperatingSystems",
+    "Browser",
+    "Region",
+    "TrafficType"
+  ],
+  "seed": 42
+}

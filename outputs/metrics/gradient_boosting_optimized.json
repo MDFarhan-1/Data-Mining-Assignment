@@ -1,0 +1,30 @@
+{
+  "model": "gradient_boosting_optimized",
+  "n_test": 1850,
+  "accuracy": 0.9021621621621622,
+  "precision": 0.7058823529411765,
+  "recall": 0.6293706293706294,
+  "f1": 0.6654343807763401,
+  "roc_auc": 0.9326218857868475,
+  "log_loss": 0.23025398070696063,
+  "confusion_matrix": [
+    [
+      1489,
+      75
+    ],
+    [
+      106,
+      180
+    ]
+  ],
+  "algorithm": "Gradient Boosting",
+  "stage": "optimized",
+  "optimization": "3-fold GridSearchCV with subsampling and staged boosting",
+  "best_cv_f1": 0.6650515300213314,
+  "parameters": {
+    "learning_rate": 0.1,
+    "max_depth": 2,
+    "n_estimators": 100,
+    "subsample": 1.0
+  }
+}

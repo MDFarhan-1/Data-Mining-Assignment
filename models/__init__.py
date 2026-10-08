@@ -1,0 +1,1 @@
+"""Independent model training entry points for the project."""
